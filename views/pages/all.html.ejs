@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+
+<h1>All Burgers</h1>
+
+  <% burgers.forEach(function(burger) { %>
+    <% for (var attr in burger) { %>
+      <%= burger[attr] %>
+    <% } %>
+ <% }) %>
+</body>
+</html>
